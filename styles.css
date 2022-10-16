@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    color: #2B7A0B;
+    background-color: #C7F2A4;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: 500;
+    font-style: italic;
+}
+
+h1 {
+    margin: 45px auto 0 auto;
+    font-family: 'Playfair Display', cursive;
+    font-size: 5.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+a {
+    color: #466d1d;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 7px;
+    border-color: #234f1e;
+    height: 2px;
+    width: 250px;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.about {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #607d3b;
+    padding: 50px 0 20px;
+}
+
+.descriere {
+    width: 50%;
+    text-align: left;
+    margin: 100px auto;
+}
+
+.skill {
+    text-align: center;
+}
+
+.introducere {
+    position: relative;
+    padding-top: 100px;
+}
+
+.cuprins {
+    margin: 100px 0;
+
+}
+
+.me {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.letter {
+    width: 100px;
+
+}
+
+.prima {
+    position: absolute;
+    width: 200px;
+    right: 200px;
+    top: 45px;
+}
+
+.a-doua {
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    top: 600px;
+    width: 200px;
+}
+
+.s1,
+.s2 {
+    position: absolute;
+    width: 200px;
+}
+
+.s1 {
+    left: 15px;
+    top: 20px;
+}
+
+.s2 {
+    right: 15px;
+    top: 500px;
+
+}
+
+.python,
+.sql {
+    width: 25%;
+}
+
+.btn {
+    box-shadow: inset 0px 1px 0px 0px #a4e271;
+    background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    background-color: #89c403;
+    border-radius: 6px;
+    border: 1px solid #82d104;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528009;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    background-color: #77a809;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
